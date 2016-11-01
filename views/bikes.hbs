@@ -1,0 +1,18 @@
+<h1>Bikes</h1>
+
+<ul>
+    {{#each bikes}}
+        <li>
+            Name: {{this.name}}
+            Gears: {{this.gears}}
+            Specs: {{this.specs}}
+            <img class='resize' src="{{this.images}}"
+        </li>
+    {{/each}}
+</ul>
+
+
+
+ <!--{{#each this.images}}
+                <img src = {{this}}/>
+            {{/each}}-->
